@@ -1,0 +1,49 @@
+.OrderSucess-page-container{
+    margin-top:67px;
+    width:100%;
+    font-family: 'Archivo Narrow', sans-serif;
+    display:flex;
+    justify-content:center;
+
+}
+
+.OrderSucess-container{
+    margin:50px 0;
+    width:700px;
+    background-color:#202020;
+    padding:20px;
+  
+}
+
+.OrderSucess-heading{
+    background-color:transparent;
+    padding:8px;
+    font-size: 20px;
+    text-align: center;
+    margin:20px auto;
+}
+
+.OrderSucess-subheading{
+    background-color:transparent;
+    padding:8px;
+    font-size: 20px;
+    text-align: center;
+    margin:20px auto;
+}
+
+.OrderSucess-links-container{
+    background-color:transparent;
+    display:flex;
+    justify-content:center;
+    margin:20px auto;
+}
+
+.OrderSucess-link-container{
+    background-color:transparent;
+    text-decoration: none;
+    margin:10px 20px;
+    padding:10px 12px;
+    background-color:rgb(0,116,228);
+    font-size: 14px;
+}
+

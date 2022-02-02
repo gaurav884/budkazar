@@ -1,0 +1,201 @@
+.sports-section-filter-toggler-container {
+    display: none;
+    overflow: hidden;
+    height: 20px;
+    background-color: black;
+    padding: 10px 0;
+    z-index: 9;
+    margin-top: 97px;
+    border: 1px solid rgba(0, 0, 0, 0.062);
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    width: 100%;
+    opacity:0.7;
+}
+
+.sports-section-filter-wrapper {
+    display: flex;
+    margin-right: 20px;
+    background-color: transparent;
+}
+
+.sports-section-filter-wrapper svg {
+    height: 25px;
+    width: 25px;
+}
+
+.sports-section-filter-wrapper p {
+    padding: 3px;
+}
+
+.sidebar-container {
+    height: 100vh;
+    width: 15vw;
+    position: fixed;
+    left: 0;
+    border-right: 1px solid rgba(255, 255, 255, 0.158);
+    font-family: 'Open Sans Condensed', sans-serif;
+    opacity:0.9
+ 
+}
+
+.sidebar-sort {
+    display: none;
+    overflow: hidden;
+}
+
+.sidebar-category-filter {
+    margin: 20px;
+ 
+}
+.sidebar-category-span {
+ 
+    padding:10px;
+}
+
+.sidebar-category-filter p {
+    font-weight: bold;
+    margin-bottom: 5px;
+  
+}
+
+.filter-checkbox-Shooter,
+.filter-checkbox-Racing,
+.filter-checkbox-Fighting,
+.filter-checkbox-Sports,
+.filter-checkbox-Simulation {
+    margin-top: 2px;
+    margin-right: 5px;
+    padding: 2px;
+  
+}
+
+.sidebar-price-range-filter {
+    margin: 20px;
+}
+
+.sidebar-price-range-filter p {
+    padding: 3px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.sidebar-price-range-filter-min {
+    display: inline-block;
+    width: 40px;
+    padding: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    outline: none;
+}
+
+.sidebar-price-range-filter-max {
+    display: inline-block;
+    width: 40px;
+    padding: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    outline: none;
+}
+
+.sidebar-price-range-filter button {
+    height: 25px;
+    width: 40px;
+    padding: 3px;
+    border-radius: 4px;
+    border: none;
+    margin-left: 2px;
+    background-color: #0078f2;
+}
+
+.sidebar-rating-filter {
+    margin: 20px;
+}
+.sidebar-rating-filter span{
+   cursor: pointer;
+}
+
+.sidebar-rating-filter p {
+    padding: 3px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.sidebar-discount-filter {
+    margin: 20px;
+}
+.sidebar-discount-filter span{
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.sidebar-discount-filter p {
+    padding: 3px;
+    font-weight: bold;
+    margin-bottom: 3px;
+    background-color: transparent;
+   
+}
+.sidebar-rating-one ,.sidebar-rating-two ,.sidebar-rating-three ,.sidebar-rating-four{
+    display: flex;;
+}
+.sidebar-rating-one span,.sidebar-rating-two span,.sidebar-rating-three span,.sidebar-rating-four span{
+    background-color: transparent;
+}
+.sidebar-rating-one div,.sidebar-rating-two div,.sidebar-rating-three div,.sidebar-rating-four div{
+    background-color: transparent;
+}
+
+.sidebar-rating-one label,.sidebar-rating-two label,.sidebar-rating-three label,.sidebar-rating-four label{
+    cursor: pointer;
+    padding: 1px 3px;
+    background-color: transparent;
+}
+
+.selected-rating-discount {
+    background-color: rgba(255, 255, 255, 0.274);
+}
+
+@media(max-width:1175px) {
+    .sidebar-container {
+        width: 20vw;
+    }
+
+}
+
+
+
+@media(max-width:818px) {
+    .sidebar-container {
+        width: 23vw;
+    }
+}
+
+@media(max-width:740px) {
+    .sidebar-sort {
+        display: block;
+    }
+    .sidebar-container {
+        overflow: hidden;
+        width: 100vw;
+        position: absolute;
+        margin: 0 auto;
+        border: 1px solid rgba(255, 255, 255, 0.158);
+        height: 0;
+        transition: all 1s;
+        z-index: 6;
+    }
+    .sidebar-container-down {
+        overflow: scroll;
+        height: 65vh;
+        
+    }
+    .sidebar-category-sort {
+        display: block;
+    }
+    .sports-section-filter-toggler-container {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+

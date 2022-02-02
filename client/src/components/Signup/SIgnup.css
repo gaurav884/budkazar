@@ -1,0 +1,105 @@
+.signup-container{
+    color: white;
+    margin-top:68px;
+}
+.signup-box{
+    width:300px;
+    margin:100px auto;
+    padding:50px 70px;
+    background-color:#202020;
+    font-family: 'Archivo Narrow', sans-serif;
+   
+}
+
+.signup-heading{
+    font-size: 18px;
+    margin:10px 0;
+    background-color:#202020;
+    text-align: center;
+    font-weight: bold;
+}
+
+.signup-email-container ,.signup-password-container ,.signup-name-container ,.signup-confirmpassword-container {
+    margin:10px 0;
+    background-color:#202020;
+}
+
+.signup-email-container input,.signup-password-container input ,.signup-name-container input,.signup-confirmpassword-container input{
+    padding:15px 10px;
+    border:1px solid rgba(255, 255, 255, 0.144) ;
+    outline:none;
+    border-radius:5px;
+    width:93%;
+    margin:10px 0;
+     background-color:#202020;
+
+}
+.signup-rembemberme-forgotpass-container{
+    display:flex;
+    flex-direction: column;
+    font-size: 14px;
+    margin:15px 0;
+    justify-content:space-around;
+    background-color:#202020;
+}
+.signup-rembemberme-forgotpass-container p{
+    margin: 5px auto;
+    font-size: 15px;
+}
+.signup-rembemberme-forgotpass-container a{
+    margin: 5px auto;
+    background-color:transparent;
+}
+
+.signup-box button{
+    width:100%;
+    margin: 20px auto;
+    height:45px;
+    background-color:#0078f2;
+    border-radius: 5px;
+    border:none;
+    
+    font-family:'Yanone Kaffeesatz', sans-serif;
+    font-size: 16px;
+}
+
+
+.signup-signup-link{
+    font-size: 14px;
+    margin:10px 0;
+    text-align:center;
+    background-color:#202020;
+}
+
+.sign-up-error{
+    background-color :#202020;
+    color:red;
+    font-size: 12px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+@media(max-width:740px) {
+    .signup-box{
+     
+         margin:150px auto;
+     
+    }
+
+    
+}
+
+@media(max-width:440px) {
+    .signup-box{
+        width:240px;
+         margin:100px auto;
+         padding:50px 30px;
+        background-color:#202020;
+        font-family: 'Archivo Narrow', sans-serif;
+       
+    }
+    .signup-email-container input,.signup-password-container input ,.signup-name-container input,.signup-confirmpassword-container input{
+        padding:10px 8px;
+       font-size: 14px;
+    
+    }
+    
+}

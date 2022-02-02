@@ -1,0 +1,231 @@
+.Account-details-page-container{
+    margin-top:80px;
+    
+}
+
+
+.Account-details-container{
+    width:500px;
+    margin:100px auto;
+    padding:50px 70px;
+   background-color:#202020;
+   font-family: 'Archivo Narrow', sans-serif;
+}
+
+.Account-details-heading-general-settings{
+    margin:30px auto;
+    padding:10px 0;
+    font-size: 25px;
+    border-top:0.1px solid rgba(255, 255, 255, 0.192);
+    border-bottom:0.1px solid rgba(255, 255, 255, 0.192);
+    background-color:transparent;
+    position:relative;
+}
+.Account-details-heading-general-settings svg{
+    position:absolute;
+    top:15px;
+    margin-left: 5px;
+    
+}
+
+.Account-details-heading-general-settings-content{
+    font-size:15px;
+    background-color:transparent;
+    margin:10px auto;
+}
+
+.Account-details-ID{
+    margin:40px auto;
+    background-color:transparent;
+}
+
+.Account-details-ID label{
+    margin:30px 32px;
+    background-color:transparent;
+  
+}
+
+.Account-details-ID span{
+    margin:20px auto;
+    background-color:transparent;
+    font-size: 18px;
+}
+.Account-details-credentials{
+    margin:40px auto;
+    background-color:transparent;
+    position:relative;
+}
+.Account-details-credentials span{
+    margin:20px auto;
+    background-color:transparent;
+    font-size: 18px;
+}
+
+.Account-details-credentials input{
+    background-color:transparent;
+    border:0.1px solid rgba(255, 255, 255, 0.192);
+    padding:8px;
+    margin:0px 5px;
+    border-radius:3px ;
+    outline:none;
+}
+.Account-details-credentials button{
+    border: none;
+    height:29px;
+    width:30px;
+    position:absolute;
+    top:3px;
+    padding:3px;
+    background-color:#0074e4;
+    overflow:hidden;
+    border-radius:3px ;
+}
+.Account-details-credentials button svg{
+    background-color:transparent;
+    height:80%;
+    width:80%;
+    margin-left: 3px;
+}
+
+.Account-details-delete-account{
+    margin:10px auto;
+    background-color:transparent;
+  
+}
+
+.Account-details-heading-delete-account{
+    font-size: 25px;
+    background-color:transparent;
+    position:relative;
+}
+.Account-details-heading-delete-account svg{
+    position:absolute;
+    top:4px;
+    margin-left: 3px;
+    
+}
+
+.Account-details-heading-delete-account-content{
+    background-color:transparent;
+    font-size: 14px;
+    margin:15px auto;
+}
+
+.Account-details-delete-account button{
+    height:40px;
+    padding:10px;
+    margin:10px auto;
+    border:none;
+    background-color:#0074e4;
+}
+
+.Account-details-heading-security{
+    margin:50px auto;
+    padding:10px 0;
+    font-size: 25px;
+    border-top:0.1px solid rgba(255, 255, 255, 0.192);
+    border-bottom:0.1px solid rgba(255, 255, 255, 0.192);
+    background-color:transparent;
+    position:relative;
+}
+.Account-details-heading-security svg{
+   position: absolute;
+   top:15px;
+   margin-left: 3px;
+}
+
+.Account-details-change-pass{
+   background-color:transparent;
+   margin:40px auto;
+}
+
+.Account-details-change-pass p{
+    background-color:transparent;
+    padding: 5px auto;
+    font-size: 22px;
+    position:relative;
+ }
+
+ .Account-details-heading-change-pass svg{
+    position: absolute;
+    top:4px;
+    margin-left: 3px;
+ }
+
+ .Account-details-change-pass input{
+    background-color:transparent;
+    padding: 10px;
+    display: block;
+    margin: 15px 0;
+    border:0.1px solid rgba(255, 255, 255, 0.192);
+    outline:none;
+    font-size: 12px;
+   
+ }
+
+ .Account-details-change-pass button{
+    height:40px;
+    padding:10px;
+    margin:10px auto;
+    border:none;
+    background-color:#0074e4;
+   
+ }
+
+ .settings-error-containerr li{
+     background-color:transparent;
+     font-size:12px;
+     color:red;
+ }
+ .settings-error-containerr p{
+   background-color:transparent;
+}
+
+ .settings-error-containerr {
+    margin-left:0;
+    width:100%;
+    background-color:transparent;
+}
+
+@media(max-width:640px){
+    .Account-details-container{
+        padding:30px;
+    }
+}
+
+@media(max-width:560px){
+    .Account-details-container{
+        width:350px;
+    }
+    .Account-details-heading-general-settings , .Account-details-heading-security{
+        font-size: 21px;
+     }
+
+    .Account-details-heading-delete-account ,.Account-details-change-pass p{
+        font-size: 18px;
+     }
+
+    
+}
+
+@media(max-width:410px){
+    .Account-details-container{
+        padding:15px;
+    }
+    .Account-details-container{
+        width:275px;
+    }
+    .Account-details-heading-general-settings ,.Account-details-heading-security{
+       font-size: 18px;
+    }
+
+    .Account-details-heading-delete-account , .Account-details-change-pass p{
+       font-size: 15px;
+    }
+
+    .Account-details-heading-delete-account-content ,.Account-details-heading-general-settings-content{
+        font-size: 12px;
+      
+    }
+   
+}

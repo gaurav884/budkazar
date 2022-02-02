@@ -1,0 +1,44 @@
+.confirmation-modal-background{
+    height:100%;
+    width:100%;
+    background-color:rgba(0, 0, 0, 0.801);
+    z-index:20;
+    position:fixed;
+    left:0;
+    top:0;
+    font-family: 'Archivo Narrow', sans-serif;
+    text-align:center;
+    display: flex;
+  
+  
+}
+
+.confirmation-modal-container{
+    height:150px;
+    width:500px;
+    margin:200px auto;
+    padding:10px
+}
+.confirmation-modal-heading-container{
+    height:63%;
+    padding:10px;
+}
+.confirmation-modal-heading-container p{
+    font-size: 20px;
+    text-align: left;
+ 
+}
+.confirmation-modal-buttons-container{
+    height:25%;
+    text-align:right;
+}
+.confirmation-modal-buttons-container button{
+    height:90%;
+    padding:5px 2px;
+    width:70px;
+    font-size: 20px;
+    border:none;
+    background-color:rgba(206, 191, 191, 0.116);
+    
+    margin:0px 5px;
+}

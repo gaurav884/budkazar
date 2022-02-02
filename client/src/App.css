@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: #121212;
+    color:rgb(240, 233, 233);
+    
+}
+button:hover {
+    cursor: pointer;
+
+}
+button{
+  font-family:'Yanone Kaffeesatz', sans-serif;
+}
+svg{
+  background-color:transparent;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}

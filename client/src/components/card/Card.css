@@ -1,0 +1,138 @@
+.checked {
+    color: orange;
+  }
+
+.product-card-conatiner{
+    margin:0 auto;
+    background-color: #191919;
+    width:170px;
+    font-family: 'Archivo Narrow', sans-serif;
+    transition:all 0.3s;
+    padding:8px;
+    opacity: 0.9;
+}
+
+.product-card-conatiner:hover{
+    transform:scale(1.07);
+    cursor:pointer;
+}
+
+.product-card-img-container{
+    width:100%;
+    overflow:hidden;
+    align-items:center;
+    border:1px solid rgba(255, 255, 255, 0.082);
+    border-radius:5px;
+    
+}
+.product-card-img-container img{
+ 
+    width:100%;
+    
+}
+
+.product-card-heading{
+    margin-top:3px;
+    padding:5px 0;
+    font-size:16px;
+    font-weight: bolder;
+    position:relative;
+    color:white;
+    background-color: transparent;
+}
+
+
+.product-card-sub-heading{
+    padding:5px;
+    font-size:11px;
+    margin-bottom:3px;
+    background-color: transparent;
+}
+
+.product-card-price{
+    padding:5px;
+    display:flex;
+    justify-content:space-between;
+    color:white;
+    background-color: transparent;
+}
+
+.product-card-ratings-container{
+    padding:2px;
+}
+
+.product-card-wishlish-card-container{
+    display:flex;
+    justify-content:space-between;
+}
+
+.product-card-price-discounted{
+    font-size: 13px;
+    background-color: #0078f2;
+    border-radius:3px;
+    padding:3px;
+
+}
+
+.product-card-price-orignal{
+ 
+    text-decoration: line-through;
+    font-size: 12px;
+    padding:3px;
+}
+
+
+
+@media(max-width:890px){
+    .product-card-conatiner{
+        width:150px;
+       
+    }
+    .product-card-heading{
+       font-size:13px;
+    }
+    
+    
+    .product-card-sub-heading{
+       font-size:9px;
+        
+    }
+}
+
+@media(max-width:598px){
+    .product-card-conatiner{
+        width:130px;
+       
+    }
+    .product-card-heading{
+       font-size:13px;
+    }
+    
+    
+    .product-card-sub-heading{
+       font-size:9px;
+        
+    }
+}
+
+
+
+@media(max-width:598px){
+    .product-card-conatiner{
+        width:115px;
+       
+    }
+    .product-card-heading{
+       font-size:11px;
+    }
+    
+    
+    .product-card-sub-heading{
+       font-size:7px;
+        
+    }
+}
+
+
+
+

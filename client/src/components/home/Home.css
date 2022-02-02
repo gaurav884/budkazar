@@ -1,0 +1,440 @@
+.home-caraousel-container{
+    display: flex;
+    width: 98vw;
+    position:relative;
+    transition:all 1s;
+    overflow:hidden;
+    margin:100px auto;
+    height: 580px;
+  
+}
+
+.home-caraousel-slider{
+    display:flex;
+    transition:all 1.5s;
+    height: 100%;
+}
+.nonactive-slide-img{
+    max-width:0;
+    height: 100%;
+    transition:all 1.5s;
+}
+
+.active-slide-img{
+    max-width:98vw;
+    transition:all 1.5s;
+    height:100%;
+  
+   
+}
+
+.carousel-left-container{
+    position:absolute;
+    top:41%;
+    left:3%;
+    z-index: 3;
+    height:35px;
+    width:35px;
+    background-color:transparent;
+}
+.carousel-left-container svg{
+    height:100%;
+    width:100%;
+}
+.carousel-right-container svg{
+    width:100%;
+    height:100%;
+}
+
+.carousel-right-container{
+    position:absolute;
+    top:41%;
+    right:3%;
+    z-index: 3;
+    height:35px;
+    width:35px;
+    background-color:transparent;
+}
+
+.latest-products-section{
+   margin:200px auto;
+   text-align:center;
+   font-family: 'Bangers', cursive;
+   opacity: 0.9;
+   
+}
+
+.latest-products-heading{
+    width:100%;
+    margin:20px auto;
+    text-align:center;
+    font-size:35px;
+    padding : 10px 0;
+  
+    letter-spacing:1.5px;
+}
+.latest-products-heading svg{
+    position:absolute;
+    margin: 2px 15px;
+}
+
+.categories-container{
+    display:grid;
+    grid-template-columns: repeat(5 ,1fr);
+    gap:30px 15px;
+    width:90%;
+    margin:40px auto;
+    font-size:20px;
+    text-align:center;
+    justify-content:center;
+    
+}
+
+.categories-shooter ,.categories-sports,.categories-simulator,.categories-fighting ,.categories-racing{
+    text-align:center;
+    padding: 10px;
+    background-color:#423F3E;
+    box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.103);
+    text-decoration: none;
+    margin:20px;
+    border-radius: 5px;
+    transition:all 0.2s
+}
+.categories-shooter:hover ,.categories-sports:hover,.categories-simulator:hover,.categories-fighting:hover ,.categories-racing:hover{
+    transform:scale(1.07)
+}
+
+
+
+.categories-shooter p ,.categories-sports p,.categories-simulator p,.categories-fighting p ,.categories-racing p{
+    text-align:center;
+    padding: 10px;
+    color:white;
+    background-color:transparent;;
+    font-size: 18px;
+    font-family: 'Archivo Narrow', sans-serif;
+
+}
+
+
+
+.categories-shooter-img-container ,.categories-sports-img-container,.categories-simulator-img-container,.categories-fighting-img-container , .categories-racing-img-container{
+    height:150px;
+    width:150px;
+    border-radius:50%;
+    overflow:hidden;
+    border: 4px solid rgba(196, 196, 196, 0.897);
+    margin:5px 0;
+    
+}
+
+.categories-shooter-img-container img ,.categories-sports-img-container img,.categories-simulator-img-container img,.categories-fighting-img-container img , .categories-racing-img-container img{
+    height:100%;
+    width:100%;
+    margin:0 auto;
+}
+
+
+
+.home-trending-conatainer{
+    margin:100px auto;
+    text-align:center;
+    font-family: 'Bangers', cursive;
+    opacity: 0.9;
+ }
+
+.home-trending-heading{
+    width:100%;
+    margin:10px auto;
+    text-align:center;
+    font-size:35px;
+    font-weight: bold;
+    letter-spacing:1.5px;
+}
+
+.latest-products-section button{
+    height: 45px;
+    width:15%;
+    margin:0 auto;
+    border-radius: 5px;
+    border:none;
+    background-color:#0078f2;
+    color: white;
+    font-size: 17px;
+
+}
+
+.home-page-features-container{
+    display: flex;
+    width: 80%;
+    margin:200px auto 200px auto;
+    font-family: 'Archivo Narrow', sans-serif;
+    justify-content:space-between;
+    flex-wrap: wrap;
+   
+}
+.home-page-feature-img-container{
+    height:100px;
+    width:100px;
+    margin:10px auto;
+    background-color:transparent;
+}
+.home-page-feature-img-container svg{
+    height:100%;
+    width:100%;
+    background-color:transparent;
+}
+.home-page-feature-container{
+    width:28%;
+    text-align:center;
+    margin:10px auto;
+    background-color:#191919;
+    padding:20px 15px; 
+
+}
+.home-page-feature-heading{
+  font-size: 18px;
+  text-align: center;
+  margin:10px auto;
+  background-color:transparent;
+}
+
+.home-page-feature-sub-heading{
+    font-size: 12px;
+    text-align: center;
+    background-color:transparent;
+}
+
+.home-page-browse-collection-container{
+    width:80%;
+    display: flex;
+    margin:150px auto;
+    justify-content: space-around;
+    flex-wrap:flex;
+}
+
+.home-page-browse-collection-img-container{
+    border: 15px;
+    overflow: hidden;
+    width:60%;
+   
+}
+.home-page-browse-collection-img-container img{
+   width:100%;
+    height:100%;
+    transition:all 1s;
+
+    
+}
+.home-page-browse-collection-img-container img:hover{
+   opacity: 2;
+   transform : scale(1.05)
+ }
+ .home-page-browse-collection-info-container{
+     width:35%;
+     font-family: 'Archivo Narrow', sans-serif;
+ }
+ .home-page-browse-collection-heading{
+     margin: 70px 10px 40px auto;
+     font-size: 22px;
+     font-family: 'Bangers', cursive;
+ }
+ .home-page-browse-collection-sub-heading{
+    font-size: 14px;
+ }
+ .home-page-browse-collection-info-container button{
+    height: 40px;
+    width:80%;
+    margin:15px auto;
+    border-radius: 5px;
+    border:none;
+    background-color:#0078f2;
+    color: white;
+    font-size: 15px;
+ }
+
+@media(max-width:1126px){
+    .home-caraousel-container{
+        display: flex;
+        width:100%;
+        position:relative;
+        transition:all 1s;
+        overflow:hidden;
+        margin:120px auto 50px auto;
+        height:auto;
+       
+      
+    }
+    
+    .home-caraousel-slider{
+        display:flex;
+        transition:all 1.5s;
+       
+    }
+    .nonactive-slide-img{
+        max-width:0;
+     
+        transition:all 1.5s;
+    }
+    
+    .active-slide-img{
+        max-width:98vw;
+        transition:all 1.5s;
+      
+    }
+
+    .categories-container{
+        
+        grid-template-columns: repeat(4 ,1fr);
+       
+    }
+
+    .latest-products-section{
+        margin:150px auto;
+       
+     }
+    .home-caraousel-container{
+        margin:80px auto;
+      
+    }
+}
+
+@media(max-width:800px){
+    .home-page-browse-collection-container{
+        flex-direction:column;
+        align-items:center;
+        border:0.1px solid rgba(255, 255, 255, 0.233);
+        border-radius:15px;
+        
+    }
+    .home-page-browse-collection-img-container , .home-page-browse-collection-info-container{
+       
+        width:auto;
+       
+    }
+    .home-page-browse-collection-heading{
+        margin: 30px 10px 20px auto;
+        
+    }
+    .home-page-browse-collection-sub-heading{
+       font-size: 14px;
+    }
+    .home-page-browse-collection-info-container button{
+       
+       margin:20px auto;
+      
+    }
+    .categories-container{
+        
+        grid-template-columns: repeat(3 ,1fr);
+        gap: 15px 10px;
+    }
+    .latest-products-section{
+        margin:55px auto;
+       
+     }
+    .home-caraousel-container{
+        margin:130px auto 20px auto;
+      
+    }
+}
+
+@media(max-width:670px){
+    .home-page-feature-container{
+        width:auto;
+        margin: 20px auto;
+    }
+    .categories-shooter ,.categories-sports,.categories-simulator,.categories-fighting, .categories-racing{
+        max-width: 220px;
+        text-align:center;
+        margin:20px auto;
+    }
+  
+
+   
+    
+}
+
+@media(max-width:520px){
+       .categories-container{
+        justify-content: center;
+        
+        } 
+        .latest-products-section{
+            margin:100px auto;
+        }
+        .home-page-browse-collection-container{
+            margin:80px auto;
+        }
+        .home-page-features-container{
+            margin:100px auto;
+        }
+        
+        
+    .latest-products-heading{
+       
+        font-size:23px;
+      
+    }
+    .categories-container{
+        
+        grid-template-columns: repeat(2 ,1fr);
+        
+       
+    }
+ 
+}
+
+
+@media(max-width:400px){
+    .carousel-left-container{
+       
+        height:25px;
+        width:25px;
+    }
+    .carousel-right-container{
+        
+        height:25px;
+        width:25px;
+    }
+    
+    .latest-products-heading ,.home-trending-heading{
+        font-size:25px;
+      
+    }
+    .categories-shooter ,.categories-sports,.categories-simulator,.categories-fighting ,.categories-fighting{ 
+        margin:10px auto;
+    }
+
+    .categories-shooter-img-container ,.categories-sports-img-container,.categories-simulator-img-container,.categories-fighting-img-container ,.categories-racing-img-container{
+        height:130px;
+        width:130px;
+        
+    }
+    
+     .categories-shooter p ,.categories-sports p,.categories-simulator p,.categories-fighting p ,.categories-racing p{
+    font-size:17px;
+    padding: 6px;
+    
+
+    }
+    .latest-products-section{
+        margin:45px auto;
+       
+     }
+    .home-caraousel-container{
+        margin:130px auto 20px auto;
+      
+    }
+
+    
+}
+
+
+@media(max-width:300px){
+    .categories-container{
+        
+        grid-template-columns: repeat(1 ,1fr);
+        width: 95%;
+    }
+}

@@ -1,0 +1,432 @@
+.product-page-conatainer{
+    margin-top:68px;
+    height:100%;
+    width:100%;
+    position:relative;
+    padding:50px 0;
+    min-height:90vh;
+    
+}
+.image-buyoptions-conatainer{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    margin:0 auto;
+    max-width: 1100px;
+    border:1px solid rgba(0, 0, 0, 0.137);
+   
+}
+.image-buyoptions-conatainer-img-container{
+    width:70%;
+    border:1px solid rgba(0, 0, 0, 0.137);
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+}
+
+.product-page-big-img-container{
+    width: 100%;
+    
+    overflow:hidden;
+    border-radius:5px;
+   
+    
+}
+.product-page-big-img-container img{ 
+    max-height: 100%;
+    max-width:  100%;
+  
+}
+
+.product-page-small-img-container{
+    display:flex;
+    justify-content: center;
+    overflow:scroll;
+    width:100%;
+    margin:10px auto;
+  
+}
+
+.product-page-small-img-container::-webkit-scrollbar {
+    display: none;
+  }
+
+.product-page-small-img-container-one ,.product-page-small-img-container-two,.product-page-small-img-container-three{
+    height:50px;
+    margin:5px 7px;
+    border:2px solid rgba(211, 208, 208, 0.842);
+    overflow:hidden;
+    border-radius:3px;
+    opacity:0.9;
+    overflow:hidden;
+    border-radius:5px;
+}
+.product-page-small-img-container-one:hover ,.product-page-small-img-container-two:hover,.product-page-small-img-container-three:hover{
+    cursor:pointer;
+    border-color: darkblue;
+}
+
+.product-page-small-img-container-one img ,.product-page-small-img-container-two img,.product-page-small-img-container-three img{
+    height:50px;
+}
+
+
+.buyoptions-container{
+    display: flex;
+    flex-direction:column;
+    width:27%;
+    padding-top:5px;
+    border-left:1px solid rgba(0, 0, 0, 0.137);
+    font-family: 'Bebas Neue', cursive;
+   
+}
+.buyoptions--buttons-container{
+    margin:15px auto;
+    width:90%;
+    text-align: center
+}
+.buyoptions-container button{
+    height: 40px;
+    width:100%;
+    margin:10px auto;
+    border-radius: 5px;
+    border:none;
+    background-color:#0078f2;
+    color: white;
+    font-size: 17px;
+       
+
+}
+.buyoptions-container a{
+    width:70%;
+    margin:10px auto;
+    text-align: center;
+    color:rgb(17, 137, 218);
+    text-decoration: none;
+}
+
+
+.image-buyoptions-info-conatainer{
+    font-family: 'Archivo Narrow', sans-serif;
+   
+  
+}
+
+.image-buyoptions-info-heading{
+    margin:10px 16px;
+    padding:2px;
+    font-weight: 700;
+    color:white;
+}
+
+.image-buyoptions-info-sub-heading {
+    margin:1px 16px;
+    padding:2px;
+}
+
+.image-buyoptions-info-ratings-container,.image-buyoptions-info-platform-container{
+    margin:1px 16px;
+    padding:2px;
+    display: flex;
+
+}
+.image-buyoptions-info-ratings-star-container{
+    margin:0px 5px;
+}
+
+.image-buyoptions-info-newprice ,.image-buyoptions-info-oldPrice ,.image-buyoptions-info-newprice ,.image-buyoptions-info-discount{
+    margin:1px 16px;
+    padding:2px;
+}
+
+.image-buyoptions-info-newprice span{
+    text-decoration: line-through;
+    font-weight: 300;
+    font-size: 12px;
+}
+.image-buyoptions-info-newprice label{
+    color:white;
+    letter-spacing:0.5px;
+}
+
+
+.product-requirements-container{
+
+   
+    margin:80px auto;
+    max-width: 1100px;
+    border:1px solid rgba(0, 0, 0, 0.137);
+   
+}
+   
+
+
+.product-requirements-container-heading{
+    font-family: 'Archivo Narrow', sans-serif;
+    border-bottom:1px solid rgba(255, 255, 255, 0.137);
+    border-top:1px solid rgba(255, 255, 255, 0.137);
+    color:white;
+}
+ 
+
+.requirements-container{
+    margin:20px 10px;
+    font-family: 'Archivo Narrow', sans-serif;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+
+.requirements-min , .requirements-recom{
+    margin:30px;
+    padding:20px 30px;
+    background-color:#202020;
+    width:30%;
+}
+
+.requirements-min div , .requirements-recom div {
+    background: transparent;
+    margin:10px 0;
+}
+.requirements-min span, .requirements-recom span{
+    background: transparent;
+    margin:10px 0;
+}
+
+
+
+.requirements-min-heading , .requirements-recom-heading{
+    font-size: 19px;
+    margin:7px 0;
+    font-weight: bold;
+    color:white;
+    background:transparent;
+    margin:15px 0;
+}
+.product-requirements-container-heading{
+    padding:10px;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    color:white;
+    background:transparent;
+}
+
+
+.product-reviews-container{
+    margin:80px auto;
+    max-width: 1100px;
+    font-family: 'Archivo Narrow', sans-serif;
+    position:relative;
+}
+
+.product-reviews-container-heading{
+    padding:10px;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    color:white;
+    border-bottom:1px solid rgba(255, 255, 255, 0.137);
+    border-top:1px solid rgba(255, 255, 255, 0.137);
+}
+.product-reviews-cards-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow:hidden;
+    height:290px;
+    margin: 30px 0;
+    
+}
+.product-reviews-cards-container-extended{
+    height:auto;
+ 
+}
+.product-reviews-card-container{
+    margin:15px 20px;
+    height:260px;
+    width:280px;
+    background-color:#202020;
+ 
+}
+
+.product-reviews-card-by{
+    padding:15px 10px;
+    border-bottom:0.1px solid rgba(255, 255, 255, 0.137);
+    background:transparent;
+    font-size:16px;
+    margin-bottom:10px;
+    color:white;
+}
+.product-reviews-card-rating{
+    background:transparent;
+    padding:5px 10px;
+    margin: 0 10px;
+    background-color:green;
+    border-radius: 4px;
+    font-size:14px;
+}
+.product-reviews-card-heading{
+    background:transparent;
+    padding:5px 10px;
+    font-size:14px;
+    color:white;
+}
+.product-reviews-card-content{
+    background:transparent;
+    padding:5px 10px;
+    font-size:13px;
+}
+
+.product-reviews-cards-extender {
+   text-align: center;
+   height:20px;
+   position:absolute;
+   bottom:-25px;
+   left:45%;
+   font-size: 17px;
+}
+.product-reviews-cards-extender:hover {
+   cursor:pointer;
+ }
+.product-reviews-cards-extender span{
+    background-color: #202020;
+    padding:8px 15px;
+   
+ }
+
+
+
+
+ .product-description-container{ 
+    margin:80px auto;
+    max-width: 1100px;
+    font-family: 'Archivo Narrow', sans-serif;
+    position:relative;
+ }
+
+ .product-description-container-heading{
+    padding:10px;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    color:white;
+    border-bottom:1px solid rgba(255, 255, 255, 0.137);
+    border-top:1px solid rgba(255, 255, 255, 0.137);
+    margin-bottom: 40px;
+
+ }
+
+.product-description-about-container{
+    margin:0;
+    padding:20px;
+}
+ .product-description-about-img-container{
+     margin: 30px 0;
+     display:flex;
+     justify-content:center;
+
+ }
+
+ .product-description-about-img-container img{
+    max-width:100%;
+    
+}
+.product-description-keyfeatures-container {
+    padding:5px 20px;
+}
+
+.product-description-keyfeatures-container li{
+  
+    margin:10px 0;
+} 
+
+.product-description-keyfeatures-container p{
+    
+    font-size: 19px;
+    margin:7px 0; 
+    font-weight: bold;
+    color:white;
+    background:transparent;
+    margin:15px 0;
+}
+.star-product-page{
+    color: #ff9933;
+    font-size:18px;
+
+}
+
+.product-reviews-empty{
+    width:250px;
+    margin:20px auto;
+    border: 0.1px solid rgba(255, 255, 255, 0.171);
+    border-radius:5px;
+    overflow:hidden;
+}
+
+.product-reviews-empty p{
+    margin:10px auto;
+    text-align:center;
+    padding:10px;
+    font-size: 20px;
+   }
+.product-reviews-empty-img-wrapper{
+     width:100px;
+     height:100px;
+     margin:15px auto;
+   }
+.product-reviews-empty-img-wrapper svg{
+     width:100px;
+     height:100px;
+   }
+
+  .requirements-content{
+     font-size:14px;
+   }
+@media(max-width:854px){
+    .image-buyoptions-conatainer{
+         flex-direction: column;
+         justify-content:center;
+         align-items:center;
+       
+    }
+    .buyoptions-container{
+          width:70%;
+          padding:10px;
+     }
+    .image-buyoptions-conatainer-img-container{
+        width:100%;
+        border-bottom:1px solid rgba(255, 255, 255, 0.137);
+    }
+    .buyoptions--buttons-container{
+         width:100%;
+         display:flex;
+         flex-direction:column;
+         justify-content: flex-start;
+         
+    }
+    .buyoptions-container button{
+        width:95%;
+        
+    
+    }
+    .product-reviews-cards-extender {
+        left:40%;
+        
+     }
+}
+
+@media(max-width:654px){
+    .requirements-container{
+        flex-direction: column;
+        align-items:center
+    }
+    .requirements-min , .requirements-recom{
+        width:60%;
+    }
+    .product-reviews-cards-extender {
+        left:35%;
+        
+     }
+}

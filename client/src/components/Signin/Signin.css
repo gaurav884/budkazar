@@ -1,0 +1,109 @@
+.signin-container{
+    color: white;
+    margin-top:68px;
+}
+.signin-box{
+    width:300px;
+     margin:100px auto;
+     padding:50px 70px;
+    background-color:#202020;
+    font-family: 'Archivo Narrow', sans-serif;
+   
+}
+
+.signin-heading{
+    text-align: center;
+    font-size: 18px;
+    margin:10px 0;
+    background-color:#202020;
+    font-weight: bold;
+}
+
+.signin-email-container ,.signin-password-container{
+    margin:10px 0;
+    background-color:#202020;
+}
+.signin-email-container input,.signin-password-container input{
+    padding:15px 10px;
+    border:1px solid rgba(255, 255, 255, 0.144) ;
+    outline:none;
+    border-radius:5px;
+    width:93%;
+    margin:10px 0;
+     background-color:#202020;
+
+}
+.signin-rembemberme-forgotpass-container{
+    display:flex;
+    font-size: 14px;
+    margin:10px 0;
+    justify-content:space-between;
+    background-color:#202020;
+}
+.signin-rembemberme-forgotpass-container a{
+  
+    background-color:transparent;
+}
+.signin-rembemberme-forgotpass-container{
+   padding:3px;
+}
+
+.signin-box button{
+    width:100%;
+    margin: 20px auto;
+    height:45px;
+    background-color:#0078f2;
+    border-radius: 5px;
+    border:none;
+    
+    font-family:'Yanone Kaffeesatz', sans-serif;
+    font-size: 16px;
+}
+
+.signin-signup-link{
+    font-size: 14px;
+    margin:10px 0;
+    text-align:center;
+    background-color:#202020;
+}
+
+.signin-signup-link a{
+   
+    background-color:transparent
+}
+@media(max-width:740px) {
+    .signin-box{
+     
+         margin:150px auto;
+     
+    }
+
+    
+}
+@media(max-width:440px) {
+    .signin-box{
+        width:240px;
+         margin:100px auto;
+         padding:50px 30px;
+        background-color:#202020;
+        font-family: 'Archivo Narrow', sans-serif;
+       
+    }
+
+    .signin-email-container input,.signin-password-container input{
+        padding:10px 8px;
+       font-size: 14px;
+    
+    }
+    
+}
+
+@media(max-width:740px) {
+    .signin-box{
+     
+         margin:150px auto;
+     
+    }
+
+    
+}
