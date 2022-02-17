@@ -32,7 +32,7 @@ const Signup = () => {
 
     
 
-    if(isNameValid && isEmailValid && isPasswordValid && (confirmPassword==password)){
+    if(isNameValid && isEmailValid && isPasswordValid ){
     
         isFormValid = true
     }

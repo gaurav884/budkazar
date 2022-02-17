@@ -99,7 +99,7 @@ router.patch("/forgot-password/987y78gyfy54etdrdg", (req, res) => {
                             subject: `Password reset`,
                             html: `
                              <h1>Password reset request</h1>
-                             <h2>Click on the link <a href="http://localhost:3000/reset-password/${token}">here</a> to change the password</h2>
+                             <h2>Click on the link <a href="https://budkazar7884.herokuapp.com/reset-password/${token}">here</a> to change the password</h2>
                              `
 
                         }, (err, info) => {
